@@ -3,7 +3,8 @@ import './App.css';
 function Projects() {
     return (
       <div className="Projects">
-       <p>This is Projects PAGE</p>
+       <p>Finish projects</p>
+       <p>Open projects</p>
       </div>
     );
   }
