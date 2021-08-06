@@ -9,7 +9,6 @@ import Footer from './Footer';
 
 function App() {
   return (
-    <div>
         <Router>
           <Head/>
           <Route path='/' exact component={Home}/>
@@ -18,7 +17,6 @@ function App() {
           <Route path='/Contact' exact component={Contact}/>
           <Footer/>
           </Router>
-    </div>
   );
 }
 

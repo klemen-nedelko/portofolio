@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto&display=swap');
+
 .App-logo {
   height: 20vmin;
   pointer-events: none;
@@ -42,30 +44,83 @@ li{
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  width: 100%;
+  height: 20%;
+}
+.footer-right-side{
+  margin-left: 75%;
+}
+.footer-left-side{
+  margin-right: 75%;
+}
+.copyright{
+  text-align: center;
 }
 .About{
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 .Contact{
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-  sans-serif;
 }
 .Projects{
   display: flex;
   flex-direction: column;
-  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  
+}
+.finish-projects{
+  margin-left: 50%;
+  max-width: 50%;
+}
+.open-projects{
+  margin-left: 10%;
+  max-width: 50%;
 }
 .Home{
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  margin-left: 10%;
+  margin-right: 10%;
+  max-width: 80%;
+}
+.name-surname
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
+}
+.about-me{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-left: 10%;
+  width: 40%;
+}
+.edjucation{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-left: 50%;
+  width: 40%;
+}
+.languages{
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+  margin-left: 10%;
+  width: 40%;
 }
 
 input[type=text]:focus {
@@ -81,8 +136,8 @@ input[type=text] {
   transition: 0.5s;
   outline: none;
 }
-input[type=message] {
-  height: 100px;
+textarea{
+  height: 200px;
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -91,6 +146,10 @@ input[type=message] {
   -webkit-transition: 0.5s;
   transition: 0.5s;
   outline: none;
+  resize: vertical;
+}
+textarea:focus {
+  border: 3px solid #555;
 }
 
 .button {
@@ -104,5 +163,13 @@ input[type=message] {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+.social{
+  height: 10%;
+  width: 5%;
+  
+  display: flex;
+  display: inline-block;
+  margin: 5px;
 }
 

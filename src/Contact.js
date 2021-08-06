@@ -5,18 +5,18 @@ function Contact() {
       <div className="Contact">
         <form className="Contact-form">
           <label>
-            Name:
-            <input type="text" name="name" />
+            Email:
+            <input type="text" name="email" placeholder="name@example.com" />
           </label>
           <label>
-            Email:
-            <input type="text" name="email" />
+            Subject:
+            <input type="text" name="subject" placeholder="Subject..." />
           </label>
           <label>
             Message:
-            <input type="message" name="message" />
+            <textarea type="message" name="message" placeholder="Write something.." />
           </label>
-            <input type="button" class="button" value="Send" />
+            <input type="button" className="button" value="Send" />
         </form>
       </div>
     );
