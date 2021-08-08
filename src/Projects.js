@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import moviez from './img/moviez_logo.png';
-import quiz from './img/logo_quiz.png';
-import restfulapi from './img/restfulapi-logo.png';
-import napoved from './img/napoved-delnic.png';
+import moviez from './img/img_logos/moviez_logo.png';
+import quiz from './img/img_logos/logo_quiz.png';
+import restfulapi from './img/img_logos/restfulapi-logo.png';
+import napoved from './img/img_logos/napoved-delnic.png';
 
 
 function Projects() {

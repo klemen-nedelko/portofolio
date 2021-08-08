@@ -4,10 +4,11 @@ import './App.css';
 function About() {
     return (
     <div className="About">
-        <p className="name-surname">KLEMEN NEDELKO
+      <p className="name-surname">KLEMEN NEDELKO</p>
+      <p className="about-me">Spletni razvijalec, študent informatike. Usmerjen v razvoj in oblikovanje spletnih strani.<br/>
       </p>
-        <p className="about-me">Spletni razvijalec, študent informatike. Usmerjen v razvoj in oblikovanje spletne strani.<br/>
-      </p>
+      <div className="animation-text">asjndiuoqwniduonqwiuodnioqwjndioqwniodnqwiodnqwiodnioqwndioqwndio</div>
+
         <p className="languages">
           C++
       </p>
