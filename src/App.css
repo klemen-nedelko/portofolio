@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100&family=Roboto&display=swap');
 body{
-  background-color: #2A3166;
-  color: #CAE7DF;
+  background-color: #1F2833;
+  color: #66FCF1;
 }
 .App-logo {
   height: 20vmin;
@@ -10,7 +10,7 @@ body{
 }
 
 .App-header {
-  background-color: #2A3170;
+  background-color: #1F2833;
   min-height: 50%;
   max-height: 80%;
   display: flex;
@@ -37,7 +37,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 .link:hover {
-  color: #373A36;
+  color: #0B0C10;
 }
 
 
@@ -49,7 +49,7 @@ li{
 }
 
 .Footer{
-  background-color: #051622;
+  background-color: #1F2833;
   color: #1BA098;
   display: flex;
   flex-direction: column;
@@ -66,10 +66,10 @@ li{
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
-  color: #FF6A3D;
+  color: #1BA098;
 }
 a{
-  color: #050505;
+  color: #1BA098;
   text-decoration: none;
   padding: 5px;
   font-size: 12px;
@@ -98,12 +98,24 @@ a:hover{
   
 }
 .finish-projects{
+  margin-left: 20%;
+  max-width: 50%;
+  margin-top: 2%;
+}
+.open-projects{
   margin-left: 50%;
   max-width: 50%;
 }
-.open-projects{
-  margin-left: 10%;
-  max-width: 50%;
+.project{
+  margin-right: 10%;
+  margin-top: 5%;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Anton', sans-serif;
+  font-size: 48px;
 }
 .Home{
   display: flex;
@@ -194,10 +206,13 @@ textarea:focus {
 }
 .social{
   height: 10%;
-  width: 5%;
-  
+  width: 5%; 
   display: flex;
   display: inline-block;
   margin: 5px;
+}
+
+img{
+  height: 250px;
 }
 
