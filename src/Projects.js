@@ -8,6 +8,7 @@ import napoved from './img/img_logos/napoved-delnic.png';
 
 function Projects() {
     return (
+      <div className="fade-in-text">
       <div className="Projects">
         <p className="finish-projects">
           <p className="title">Dokončani projekti</p>
@@ -45,6 +46,7 @@ function Projects() {
             Moviez : mobilna aplikacija, ki s pomočjo všečkanja filmov in serij, izbereš pravo serijo s prijatleji ali partnerjem za večer.
           </p>
         </p>
+      </div>
       </div>
     );
   }

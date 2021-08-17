@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import {BrowserRouter as Router,Link,Route,Switch} from 'react-router-dom';
+import {BrowserRouter as Router,Link,Route} from 'react-router-dom';
 
 function Head(){
     return (
@@ -10,10 +10,10 @@ function Head(){
         <p><img src={logo} className="App-logo" alt="logo" />
           <Link to="/" className="name-to-home">KLEMEN NEDELKO</Link></p>
           <ul>
-              <li><Link to="/" className="link">HOME</Link></li>
-              <li><Link to="/About" className="link">ABOUT</Link></li>
-              <li><Link to="/Projects" className="link">PROJECTS</Link></li>
-              <li><Link to="/Contact" className="link">CONTACT</Link></li>
+              <li><Link to="/" className="link">Domov</Link></li>
+              <li><Link to="/About" className="link">O meni</Link></li>
+              <li><Link to="/Projects" className="link">Projekti</Link></li>
+              <li><Link to="/Contact" className="link">Kontakt</Link></li>
             </ul>
           </header>
     </div>

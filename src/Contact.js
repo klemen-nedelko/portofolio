@@ -1,6 +1,9 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 import './App.css';
+import { Button } from 'react-bootstrap';
+
+
 function Contact() {
 
   function sendEmail(e){
@@ -8,7 +11,7 @@ function Contact() {
     emailjs.sendForm('service_obe3svs', 'template_k20tpkh', e.target, 'user_w4TKg6PgufJqVeAhSKPoz')
       .then((result) => {
           console.log(result.text);
-          alert("Message send successfully")
+          alert("Send was succesfuly")
       }, (error) => {
           console.log(error.text);
           alert("Something went wrong")
@@ -18,6 +21,7 @@ function Contact() {
   }
 
     return (
+      <div className="fade-in-text">
       <div className="Contact">
         <form className="Contact-form" onSubmit={sendEmail}>
           <label>
@@ -37,7 +41,11 @@ function Contact() {
             <textarea type="message" name="message" placeholder="Write something.." />
           </label>
             <input type="submit" className="button" value="Send" />
+            <label>
+              <p onSubmit="succesSend"></p>
+              </label>
         </form>
+        </div>
       </div>
     );
   }
