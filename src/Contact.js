@@ -26,7 +26,7 @@ function Contact() {
         <form className="Contact-form" onSubmit={sendEmail}>
           <label>
             Name:
-            <input type="text" name="name" placeholder="Name" />
+            <input type="text" name="name" placeholder="Ime" />
           </label>
           <label>
             Email:
@@ -34,11 +34,11 @@ function Contact() {
           </label>
           <label>
             Subject:
-            <input type="text" name="subject" placeholder="Subject..." />
+            <input type="text" name="subject" placeholder="Zadeva..." />
           </label>
           <label>
             Message:
-            <textarea type="message" name="message" placeholder="Write something.." />
+            <textarea type="message" name="message" placeholder="Tvoje vprašanje.." />
           </label>
             <input type="submit" className="button" value="Send" />
             <label>
