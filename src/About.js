@@ -13,10 +13,10 @@ function About() {
         <p className="languages">
         <div className="Web">
           <strong>Razvoj spletnih aplikacij: </strong><br/>
-          HTML
+          React
           <div class="progress">
             <div class="progress-bar">
-          <Progressbar bgcolor="#45A29E" progress='100'  height={30} /><br/>
+          <Progressbar bgcolor="#45A29E" progress='80'  height={30} /><br/>
             </div>
           </div>
           <div class="progress">
@@ -28,7 +28,7 @@ function About() {
           Javascript
           <div class="progress">
             <div class="progress-bar">
-          <Progressbar bgcolor="#45A29E" progress='80'  height={30} /><br/>
+          <Progressbar bgcolor="#45A29E" progress='50'  height={30} /><br/>
           </div>
           </div>
             </div>
@@ -55,12 +55,6 @@ function About() {
         </div>
       <div className="Web">
           <strong>Frameworki: </strong><br/>
-          React
-          <div class="progress">
-            <div class="progress-bar">
-          <Progressbar bgcolor="#45A29E" progress='80'  height={30} /><br/>
-          </div>
-          </div>
           Flask
           <div class="progress">
             <div class="progress-bar">
